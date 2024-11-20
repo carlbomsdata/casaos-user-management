@@ -13,3 +13,19 @@ A Python script for managing CasaOS users directly in the `user.db` database. Fe
 Run the script with:
 ```bash
 sudo python3 program.py
+```
+
+Or build for your platform using pyinstaller:
+```bash
+pip install pyinstaller
+```
+```bash
+pyinstaller --onefile program.py
+```
+```bash
+pyinstaller --onefile program.py
+```
+Make a copy of the script from the ./dist folder and then run:
+```bash
+sudo ./program
+```
