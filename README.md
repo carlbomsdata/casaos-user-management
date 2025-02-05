@@ -15,12 +15,22 @@ A Python script for managing CasaOS users directly in the `user.db` database. Fe
 
 **Note**: Requires `sudo` permissions and Python 3.x. Always backs up the database before making changes.
 
-Run the script with:
+### Run the script with:
 ```bash
 sudo python3 program.py
 ```
 
-Or build for your platform using pyinstaller:
+### Or install as a System Command:
+```bash
+sudo cp program.py /usr/bin/casaos-users-manager
+sudo chmod +x /usr/bin/casaos-users-manager
+```
+And run with
+```
+sudo casaos-users-manager
+```
+
+### Or build for your platform using pyinstaller:
 ```bash
 pip install pyinstaller
 ```
